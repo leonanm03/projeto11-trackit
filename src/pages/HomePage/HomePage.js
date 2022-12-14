@@ -1,9 +1,10 @@
 
 
+export default function HomePage() {
 
-export default function HomePage(){
-
-    return(
+    return (
         <h1>Home</h1>
+
     )
 }
+

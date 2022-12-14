@@ -1,4 +1,8 @@
+//libraries
+import { createContext } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+// Pages
 import HabitsPage from "./pages/HabitsPage/HabitsPage";
 import HistoryPage from "./pages/HistoryPage/HistoryPage";
 import HomePage from "./pages/HomePage/HomePage";
@@ -6,7 +10,11 @@ import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import TodayPage from "./pages/TodayPage/TodayPage";
 
 
+
+
+
 function App() {
+  
   return (
     <div className="App">
 
