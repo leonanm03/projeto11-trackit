@@ -1,9 +1,14 @@
+import Header from "../../components/Header/Header";
 
 
 
-export default function HabitsPage(){
+export default function HabitsPage() {
 
-    return(
-        <h1>Habits</h1>
+    return (
+        <>
+            <Header />
+
+            <h1>Habits</h1>
+        </>
     )
 }
